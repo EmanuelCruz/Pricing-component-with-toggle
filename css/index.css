@@ -66,25 +66,26 @@ body {
     text-decoration: none;
 }
 
-
 .circle--monthly {
     position: absolute;
     background:hsl(240, 78%, 98%);
     border-radius: 50%;
-    width: 23px;
-    height: 23px;
-    top: 3px;
+    width: 22px;
+    height: 22px;
+    top: 4px;
     right: 4px;
+    transition: right 0.3s ease-in-out;
 }
 
 .circle--annually {
     position: absolute;
     background:hsl(240, 78%, 98%);
     border-radius: 50%;
-    width: 23px;
-    height: 23px;
-    top: 3px;
-    left: 4px;
+    width: 22px;
+    height: 22px;
+    top: 4px;
+    right: 24px;
+    transition: right 0.3s ease-in-out;
 }
 
 
@@ -132,10 +133,13 @@ body {
 }
 
 .card__pricing {
-    font-size: 70px;
+    font-size: 60px;
     color: hsl(232, 13%, 33%);
     padding-bottom: 25px;
+    opacity: 1;
+    transition: opacity 1s;
 }
+
 .card__description--first {
     color: hsl(233, 13%, 49%);
     border-top: 1px solid hsl(233, 13%, 49%);
@@ -188,7 +192,7 @@ body {
 }
 
 .card__pricing--primary {
-    font-size: 70px;
+    font-size: 60px;
     color: white;
     padding-bottom: 25px;
 }
