@@ -64,6 +64,7 @@ body {
     margin-right: 10px;
     position: relative;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .circle--monthly {
@@ -136,8 +137,6 @@ body {
     font-size: 60px;
     color: hsl(232, 13%, 33%);
     padding-bottom: 25px;
-    opacity: 1;
-    transition: opacity 1s;
 }
 
 .card__description--first {
@@ -199,7 +198,7 @@ body {
 
 .card__description--primary {
     color: white;
-    border-bottom: 1px solid hsl(233, 13%, 49%);
+    border-bottom: 1px solid white;
     padding-top: 15px;
     padding-bottom: 15px;
     width: 100%;
@@ -208,8 +207,8 @@ body {
 
 .card__description--first-primary {
     color: white;
-    border-top: 1px solid hsl(233, 13%, 49%);
-    border-bottom: 1px solid hsl(233, 13%, 49%);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
     padding-top: 15px;
     padding-bottom: 15px;
     width: 100%;

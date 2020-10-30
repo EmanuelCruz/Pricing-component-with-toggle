@@ -1,7 +1,3 @@
-document.addEventListener('DOMContentLoaded',()=>{
-    console.log('Documento listo')
-})
-
 let button = document.querySelector('.container-pricing__button');
 
 button.addEventListener('click', ()=>{
@@ -25,6 +21,7 @@ button.addEventListener('click', ()=>{
         document.querySelector('.container-pricing__content .card__pricing--primary').innerText = '$24.99';
 
     } else {
+        
         document.querySelector('.circle--monthly').className = 'circle--annually';
         
         let precings = document.querySelectorAll('.container-pricing__content .card__pricing');
