@@ -50,7 +50,7 @@ body {
     align-items: center;    
 }
 
-.container-pricing__option-button{
+.container-pricing__text-button{
     color: hsl(234, 14%, 74%);
 }
 
@@ -144,7 +144,6 @@ body {
 
 .card__button--secondary {
     font-family: Montserrat;
-
     background: rgb(163,168,240);
     background: linear-gradient(107deg, rgba(163,168,240,1) 0%, rgba(105,111,221,1) 100%);
     border-radius: 5px;
@@ -160,7 +159,7 @@ body {
 
 .card__button--primary {
     font-family: Montserrat;
-    background:white;   
+    background:white;
     border-radius: 5px;
     color: hsl(233, 13%, 49%);
     width: 100%;
@@ -201,6 +200,21 @@ body {
     text-align:center;
 }
 
+.container-pricing__button:active{
+    background: hsl(236, 72%, 79%);   
+}
+
+.card__button--primary:active {
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+}
+
+.card__button--secondary:active {
+    border: 1px solid hsl(232, 13%, 33%);
+    color: hsl(237, 63%, 64%);
+    background: transparent;
+}
 
 @media (min-width: 1440px) {
     body {
